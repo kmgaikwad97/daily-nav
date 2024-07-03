@@ -1,6 +1,6 @@
 {
   "name": "daily-nav",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A responsive navbar with hamburger menu and background image for a React application.",
   "main": "dist/index.js",
   "scripts": {

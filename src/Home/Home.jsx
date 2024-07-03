@@ -16,9 +16,6 @@ const Home = ({ bannerImage, bannerHeading, bannerSubHeading, testContent }) => 
           <div className="spacer"></div>
         </div>
       </div>
-      <div className="lorem">
-        {testContent}
-      </div>
     </div>
   );
 };
@@ -27,7 +24,6 @@ Home.propTypes = {
   bannerImage: PropTypes.string.isRequired,
   bannerHeading: PropTypes.string.isRequired,
   bannerSubHeading: PropTypes.string.isRequired,
-  testContent: PropTypes.string.isRequired,
 };
 
 export default Home;
